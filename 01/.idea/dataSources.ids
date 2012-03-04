@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="" version="" jdbc-version="" driver-version="" uuid="92873081-469a-42b8-98ff-b957da8602e4">
+    <jdbc-driver>org.h2.Driver</jdbc-driver>
+    <jdbc-url>jdbc:h2:~/test</jdbc-url>
+    <user-name>sa</user-name>
+    <libraries>
+      <library>
+        <url>file://$PROJECT_DIR$/../../jboss-as-7.1.0.Final/modules/com/h2database/h2/main/h2-1.3.161.jar</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
