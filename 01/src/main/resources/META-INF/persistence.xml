@@ -5,8 +5,9 @@
         <properties>
             <property name="hibernate.connection.username" value="sa"/>
             <property name="hibernate.connection.password" value=""/>
-            <property name="hibernate.connection.url" value="jdbc:h2:~/test"/>
+            <property name="hibernate.connection.url" value="jdbc:h2:~/test;AUTO_SERVER=TRUE"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
+            <property name="show_sql" value="true" />
         </properties>
     </persistence-unit>
 </persistence>
