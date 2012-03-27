@@ -46,8 +46,8 @@ public class Publisher {
         this.address = address;
     }
 
-    @OneToMany(mappedBy = "publisher", cascade = CascadeType.ALL)
-    // @OneToMany(mappedBy = "publisher")
+    // @OneToMany(mappedBy = "publisher", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "publisher")
     public Set<Book> getBook() {
         return book;
     }
