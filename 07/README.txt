@@ -1,0 +1,3 @@
+Aggiungere in annotation processing:
+
+org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor
