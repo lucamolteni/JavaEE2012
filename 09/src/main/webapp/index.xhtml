@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+    <title>08</title>
+</h:head>
+<h:body>
+    <h:form id="myForm">
+        <h3>Please enter your name and password:</h3>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><h:inputText id="name"
+                                 value="#{user.name}" /></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><h:inputSecret id="password"
+                                   value="#{user.password}" /></td>
+            </tr>
+        </table>
+        <p>
+            <h:commandButton value="Login" >
+            <f:ajax execute="name password" render="out" />
+            </h:commandButton>
+        <h3><h:outputText id="out" value="#{user.greeting}" /></h3>
+        </p>
+    </h:form>
+</h:body>
+</html>
