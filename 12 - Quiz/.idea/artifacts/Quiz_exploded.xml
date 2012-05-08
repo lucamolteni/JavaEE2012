@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Quiz exploded">
+    <output-path>$PROJECT_DIR$/target/quiz.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="12" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.h2database:h2:1.3.161" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="12/web/Web" />
+    </root>
+  </artifact>
+</component>

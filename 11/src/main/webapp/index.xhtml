@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html"
+        xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+<h:head><title>11</title></h:head>
+<h:body>
+    <h:outputFormat value="#{msgs.greetings}">
+        <f:param value="#{bean.nome}" />
+    </h:outputFormat>
+    <h:outputFormat value="#{msgs.lblNumeroUtenti}">
+        <f:param value="#{bean.numUtenti}" />
+    </h:outputFormat>
+    <p>
+        <h:outputText style="color:#{msgs[bean.nome]};" value="#{bean.mappa[bean.nome]}" />
+    </p>
+    <h:form>
+    <table>
+        <tr>
+            <td><h:outputText value="#{msgs.inputNameLabel}" /></td>
+            <td><h:inputText value="#{bean.nome}" /></td>
+        </tr>
+        <tr>
+            <td><h:outputText value="#{msgs.inputUsers}" /></td>
+            <td><h:inputText value="#{bean.numUtenti}" /></td>
+        </tr>
+        <tr>
+            <td><h:commandButton
+            value="Submit"
+            action="#{bean.saluta(fn:toLowerCase('CIAO MONDO'))}" />
+            </td>
+        </tr>
+    </table>
+    </h:form>
+</h:body>
+</html>
