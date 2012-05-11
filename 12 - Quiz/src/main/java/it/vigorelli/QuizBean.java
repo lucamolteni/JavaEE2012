@@ -49,6 +49,7 @@ public class QuizBean implements Serializable {
         this.correctAnswer = correctAnswer;
     }
 
+    // E' possibile modificarlo?
     public String answerAction() {
         tries++;
         if (problems.get(currentProblem).isCorrect(response)) {
