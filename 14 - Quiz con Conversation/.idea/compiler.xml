@@ -17,7 +17,7 @@
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true">
       <processor name="org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor" options="" />
-      <processModule name="12" generatedDirName="generated" />
+      <processModule name="14" generatedDirName="generated" />
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
