@@ -40,8 +40,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -55,8 +55,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
@@ -87,7 +87,7 @@
       <file leaf-file-name="QuizBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/QuizBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
+            <state line="14" column="6" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1000#1009#0" expanded="true" />
@@ -96,55 +96,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faces-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <file leaf-file-name="begin.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/begin.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+            <state line="7" column="8" selection-start="407" selection-end="407" vertical-scroll-proportion="0.22789784">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beans.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+      <file leaf-file-name="done.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/done.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+            <state line="4" column="6" selection-start="218" selection-end="218" vertical-scroll-proportion="-3.04">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="failure.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="44" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Servlet.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.0.Final/jboss-servlet-api_3.0_spec-1.0.0.Final-sources.jar!/javax/servlet/Servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="23" selection-start="7375" selection-end="7382" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.22396857">
+            <state line="11" column="0" selection-start="386" selection-end="536" vertical-scroll-proportion="-4.4">
               <folding />
             </state>
           </provider>
@@ -153,7 +126,16 @@
       <file leaf-file-name="WorkspaceBean.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/WorkspaceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+            <state line="13" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="-4.56">
               <folding />
             </state>
           </provider>
@@ -162,16 +144,34 @@
       <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="43" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+            <state line="12" column="33" selection-start="598" selection-end="598" vertical-scroll-proportion="-9.12">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/messages.properties">
+      <file leaf-file-name="success.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/success.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
+            <state line="15" column="29" selection-start="555" selection-end="555" vertical-scroll-proportion="-8.44">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="another.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/another.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="59" selection-start="482" selection-end="482" vertical-scroll-proportion="-8.36">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="again.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/again.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="383" selection-end="533" vertical-scroll-proportion="-8.36">
               <folding />
             </state>
           </provider>
@@ -187,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ProvaIdea9/data/MemberListProducer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
@@ -195,14 +194,15 @@
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/messages.properties" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/WorkspaceBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/again.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/begin.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/done.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/failure.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/QuizBean.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/again.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/failure.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/another.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/begin.xhtml" />
       </list>
     </option>
   </component>
@@ -639,6 +639,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workdir\roba\JavaEE2012\14 - Quiz con Conversation\src\main\webapp" />
       <recent name="C:\roba\08\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -925,14 +926,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6056338" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3943662" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3943662" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1017,47 +1018,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/done.xhtml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="218" selection-end="218" vertical-scroll-proportion="-2.5" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="386" selection-end="536" vertical-scroll-proportion="-6.0416665" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="341" selection-end="341" vertical-scroll-proportion="-4.375" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/again.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="367" selection-end="367" vertical-scroll-proportion="-5.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/begin.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="550" selection-end="550" vertical-scroll-proportion="-6.875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
+        <state line="12" column="20" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_24/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="858" column="34" selection-start="37020" selection-end="37020" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.0.Final/jboss-servlet-api_3.0_spec-1.0.0.Final-sources.jar!/javax/servlet/Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
+        <state line="191" column="23" selection-start="7375" selection-end="7382" vertical-scroll-proportion="0.035580523">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -1076,31 +1055,55 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/servlet/jboss-servlet-api_3.0_spec/1.0.0.Final/jboss-servlet-api_3.0_spec-1.0.0.Final-sources.jar!/javax/servlet/Servlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="23" selection-start="7375" selection-end="7382" vertical-scroll-proportion="0.0" />
+        <state line="9" column="0" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/WorkspaceBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
+      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0" />
+        <state line="9" column="24" selection-start="420" selection-end="420" vertical-scroll-proportion="8.55">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/done.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+        <state line="4" column="6" selection-start="218" selection-end="218" vertical-scroll-proportion="-3.04">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/messages.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
+        <state line="11" column="0" selection-start="386" selection-end="536" vertical-scroll-proportion="-4.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/again.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="383" selection-end="533" vertical-scroll-proportion="-8.36">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/WorkspaceBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/QuizBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
+        <state line="14" column="6" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1000#1009#0" expanded="true" />
@@ -1108,16 +1111,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
+        <state line="15" column="29" selection-start="555" selection-end="555" vertical-scroll-proportion="-8.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/another.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="59" selection-start="482" selection-end="482" vertical-scroll-proportion="-8.36">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.22396857">
+        <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="-4.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="598" selection-end="598" vertical-scroll-proportion="-9.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/begin.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="407" selection-end="407" vertical-scroll-proportion="0.22789784">
           <folding />
         </state>
       </provider>
