@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>#{msgs.title}</title></h:head>
+<h:body>
+        <h3><h:link value="Start new Test" outcome="index" target="_blank">
+            <f:param name="cid" />
+        </h:link>
+        </h3>
+        <p>
+            Active Conversation:
+            <ul>
+                <ui:repeat value="#{workspaceBean.conversations}" var="c">
+                    <li>
+                        <h:link outcome="index" value="Goto conversation: #{c}" >
+                            <f:param name="cid" value="#{c}" />
+                        </h:link>
+                    </li>
+                </ui:repeat>
+            </ul>
+        </p>
+</h:body>
+</html>
