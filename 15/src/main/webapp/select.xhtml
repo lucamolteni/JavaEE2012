@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>08</title></h:head>
+<h:body>
+    <h:form id="myform">
+        <h:panelGrid columns="1">
+            <h:selectBooleanCheckbox value="#{myBean.myBooleanValue}" />
+
+            <h:selectManyCheckbox value="#{myBean.colori}">
+                <f:selectItem itemValue="RED" itemLabel="Rosso" />
+                <f:selectItem itemValue="BLUE" itemLabel="Blu" />
+                <f:selectItem itemValue="YELLOW" itemLabel="Giallo" />
+                <f:selectItem itemValue="GREEN" itemLabel="Verde" />
+            </h:selectManyCheckbox>
+
+            <h:selectOneMenu value="#{myBean.mioNumero}">
+                <f:selectItem itemValue="1" itemLabel="Rosso" />
+                <f:selectItem itemValue="2" itemLabel="Blu" />
+                <f:selectItem itemValue="3" itemLabel="Giallo" />
+                <f:selectItem itemValue="4" itemLabel="Verde" />
+            </h:selectOneMenu>
+
+            <h:selectManyListbox value="#{myBean.citta}">
+                <f:selectItems value="#{myBean.cittaDisponibili}"
+                        var="c"
+                        itemLabel="#{c.nome}"
+                        itemValue="#{c.postalCode}" />
+            </h:selectManyListbox>
+
+            <h:commandButton value="Submit" action="#{myBean.myAction}" />
+        </h:panelGrid>
+    </h:form>
+</h:body>
+</html>

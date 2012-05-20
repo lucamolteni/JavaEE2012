@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>08</title>
+<script type="text/javascript">
+function checkPassword(form) {
+    var password = form[form.id + ":password"].value;
+    var passwordConfirm = form[form.id + ":passwordConfirm"].value;
+
+    if(password == passwordConfirm) {
+        form.submit();
+    } else {
+        alert('Le password non coincidono');
+    }
+}
+
+function checkPassword2(form) {
+    var password = form["password"].value;
+    var passwordConfirm = form["passwordConfirm"].value;
+
+    if(password == passwordConfirm) {
+        form.submit();
+    } else {
+        alert('Le password non coincidono');
+    }
+}
+</script>
+</h:head>
+
+<h:body>
+    <h:form prependId="false">
+        <h1><h:outputText value="Login" /></h1>
+        <h:panelGrid columns="2">
+            <h:outputText value="Nome" />
+            <h:inputText  />
+            <h:outputText value="Password" />
+            <h:inputSecret id="password" />
+            <h:outputText value="Confirm Password" />
+            <h:inputSecret id="passwordConfirm" />
+        </h:panelGrid>
+        <h:commandButton
+                action="#{myBean.myAction}"
+                value="Register"
+                type="button"
+                onclick="checkPassword2(this.form)" />
+    </h:form>
+</h:body>
+</html>
