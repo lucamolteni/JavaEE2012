@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<ui:composition template="template.xhtml" >
+    <ui:param name="pageTitle" value="Pagina 1" />
+    <ui:param name="menuWidth" value="160" />
+    <ui:define name="header">
+        Prima pagina
+    </ui:define>
+    <ui:define name="content">
+        <p>
+            La pagina 1 parla di un sacco di argomenti interessanti.
+        </p>
+        <h:form>
+            <h:panelGrid>
+                <h:outputText value="Inserisci il numero" />
+                <h:inputText value="#{myBean.numero}" />
+            </h:panelGrid>
+            <h:commandButton action="#{myBean.myAction}"
+                    value="Submit"/>
+
+            <ui:fragment rendered="#{myBean.numero gt 10}">
+            <h:outputText value="Il numero è maggiore di 10" />
+            <h:panelGrid >
+                <h:outputText value="Inserisci un altro numero" />
+                <h:inputText value="#{myBean.numero}" />
+            </h:panelGrid>
+            </ui:fragment>
+
+
+            <ui:debug />
+        </h:form>
+    </ui:define>
+</ui:composition>
+</html>
