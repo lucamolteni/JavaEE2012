@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>17</title></h:head>
+<h:body>
+    <h1>Gli iscritti al corso Java EE 2012</h1>
+
+    <h:form>
+        <h:dataTable
+                value="#{myBean.persone}"
+                var="r" style="border: 1px solid red;">
+            <f:facet name="header">
+                <h:column>
+                    Edit
+                </h:column>
+                <h:column>
+                    Nome
+                </h:column>
+                <h:column>
+                    Cognome
+                </h:column>
+                <h:column>
+                    Rimuovi
+                </h:column>
+            </f:facet>
+            <h:column>
+                <h:selectBooleanCheckbox onclick="submit()" value="#{r.editable}"/>
+            </h:column>
+            <h:column>
+                <h:inputText value="#{r.nome}" rendered="#{r.editable}" />
+                <h:outputText value="#{r.nome}" rendered="#{not r.editable}"/>
+            </h:column>
+            <h:column>
+                <h:inputText value="#{r.cognome}" rendered="#{r.editable}"/>
+                <h:outputText value="#{r.cognome}" rendered="#{not r.editable}"/>
+            </h:column>
+            <h:column>
+               <h:commandLink value="Rimuovi" action="#{myBean.cancellaUtente(r)}" />
+            </h:column>
+        </h:dataTable>
+        <h:commandButton value="Salva Utenti" action="#{myBean.salvaUtenti}" />
+        <h:commandButton value="Aggiungi Utente" action="#{myBean.aggiungiUtente}" />
+    </h:form>
+
+
+</h:body>
+</html>

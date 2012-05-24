@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head><title>17</title></h:head>
+<h:body>
+    <h1>Converters</h1>
+
+    <h:outputText value="#{myBeanConverter.myDate}"
+                  converter="javax.faces.DateTime"/>
+
+
+    <h:form>
+        <h:inputText id="dataInput"
+                     value="#{myBeanConverter.myDate}">
+            <f:convertDateTime type="date"
+                               dateStyle="short"/>
+        </h:inputText>
+        <h:message for="dataInput"
+                   showDetail="false"
+                   showSummary="true"
+                />
+        <br/>
+        <h:inputText id="numeroInput2"
+                     value="#{myBeanConverter.myNumber}">
+            <f:validateLength minimum="3" />
+        </h:inputText>
+        <h:message for="numeroInput2"
+                   showDetail="false"
+                   showSummary="true"
+                /> <br/>
+
+        <h:inputText id="stringaInput2"
+                     value="#{myBeanConverter.myString}" />
+        <h:message for="stringaInput2"
+                   showDetail="false"
+                   showSummary="true"
+                /> <br/>
+
+        <h:inputText id="booleanInput2"
+                     value="#{myBeanConverter.myBoolean}" />
+        <h:message for="booleanInput2"
+                   showDetail="false"
+                   showSummary="true"
+                /> <br/>
+
+        <h:inputText id="personaInput2"
+                     converter="personaConverter"
+                     value="#{myBeanConverter.myPersona}" />
+        <h:message for="personaInput2"
+                   showDetail="false"
+                   showSummary="true"
+                /> <br/>
+        <h:commandButton value="Submit" action="#{myBeanConverter.myAction}"/>
+    </h:form>
+
+    <h:form>
+        <h:selectOneMenu value="#{myBeanConverter.myPersona}"
+                         converter="personaConverter">
+            <f:selectItems value="#{myBean.persone}" var="p"
+                    itemLabel="#{p.nome} #{p.cognome}"
+                    />
+        </h:selectOneMenu>
+        <h:commandButton value="Submit" action="#{myBeanConverter.myAction}"/>
+    </h:form>
+</h:body>
+</html>
