@@ -67,39 +67,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="standalone.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../jboss-as-7.1.1.Final/standalone/configuration/standalone.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="317" column="0" selection-start="15630" selection-end="15630" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Publisher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="11" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElencoPublisher.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="20" selection-start="301" selection-end="301" vertical-scroll-proportion="0.39007092">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PublisherQuery.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="5" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="205" selection-end="205" vertical-scroll-proportion="-1.25">
+            <state line="20" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="BookQuery.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.10121457">
+            <state line="17" column="12" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/logging/Logger.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
+            <state line="19" column="5" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="42" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.1.Final/jboss-ejb-api_3.1_spec-1.0.1.Final-sources.jar!/javax/ejb/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="18" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -116,11 +174,16 @@
         <option value="$PROJECT_DIR$/generated/ProvaIdea9/model/Member_.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProvaIdea9/model/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProvaIdea9/data/MemberListProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" />
+        <option value="$PROJECT_DIR$/../../../jboss-as-7.1.1.Final/standalone/configuration/standalone.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" />
       </list>
     </option>
   </component>
@@ -160,6 +223,12 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -410,11 +479,35 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -424,21 +517,21 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -456,11 +549,37 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -475,29 +594,9 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="08" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemId" value="vigorelli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -699,10 +798,12 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="JBoss 7.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.0.Final">
+    <configuration default="false" name="JBoss 7.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/18/" />
+      <option name="COMMON_VM_ARGUMENTS" value="-d64" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="08:war exploded">
+        <artifact name="18:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -725,13 +826,13 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
@@ -740,13 +841,13 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
@@ -755,20 +856,20 @@
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </STARTUP>
         <SHUTDOWN>
           <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="                " />
+          <option name="SCRIPT" value="" />
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="08:war exploded" />
+          <artifact name="18:war exploded" />
         </option>
       </method>
     </configuration>
@@ -819,28 +920,28 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39679146" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3956466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925072" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925072" sideWeight="0.67058825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925072" sideWeight="0.60435337" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -879,7 +980,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -904,32 +1005,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/hibernate/hibernate-jpamodelgen/1.1.1.Final/hibernate-jpamodelgen-1.1.1.Final.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.0.1.Final/hibernate-core-4.0.1.Final.jar!/org/hibernate/service/jdbc/connections/internal/DriverManagerConnectionProviderImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="1149" selection-end="1149" vertical-scroll-proportion="-19.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml">
-      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.jsf.ui.FacesConfigEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="-3.8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.taglib.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1178" column="4" selection-start="38537" selection-end="38537" vertical-scroll-proportion="0.0" />
@@ -959,16 +1034,90 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="205" selection-end="205" vertical-scroll-proportion="-1.25">
+        <state line="11" column="17" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="335" selection-end="335" vertical-scroll-proportion="0.10121457">
+        <state line="1" column="35" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.1.Final/jboss-ejb-api_3.1_spec-1.0.1.Final-sources.jar!/javax/ejb/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="18" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../jboss-as-7.1.1.Final/standalone/configuration/standalone.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="317" column="0" selection-start="15630" selection-end="15630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="11" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/logging/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="20" selection-start="301" selection-end="301" vertical-scroll-proportion="0.39007092">
           <folding />
         </state>
       </provider>
@@ -979,7 +1128,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>08:war exploded</last-edited>
+          <last-edited>18:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1028,7 +1177,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|08</last-edited>
+          <last-edited>18</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
