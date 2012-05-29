@@ -11,7 +11,9 @@ public class PublisherQuery {
     @PersistenceContext EntityManager em;
 
     public List<Publisher> getAllPublisher() {
-        return em.createQuery("select p from Publisher p", Publisher.class).getResultList();
+        return em.createQuery(
+                "select p from Publisher p"
+                , Publisher.class).getResultList();
     }
 
     public void addPublisher(Publisher p) {

@@ -19,6 +19,10 @@ public class BookQuery {
         return em.createQuery("select b from Book b ", Book.class).getResultList();
     }
 
+    public Book find(Long id) {
+        return em.find(Book.class, id);
+    }
+
     @Remove
     public void destroy() {
         Logger.getLogger(BookQuery.class.getSimpleName()).info("BookQuery Destroyed");

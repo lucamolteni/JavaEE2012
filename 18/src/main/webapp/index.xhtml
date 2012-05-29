@@ -19,9 +19,11 @@
     </ui:repeat>
 </ul>
 
-    <h:dataTable value="#{elencoPublisher.books}" var="b">
+    <h:dataTable style="border: 1px solid green;" value="#{elencoPublisher.books}" var="b">
         <h:column>
-            <h:outputText value="#{b.bookName}" />
+            <h:link outcome="DettaglioBook" value="#{b.bookName}" >
+                <f:param name="id" value="#{b.isbn}" />
+            </h:link>
         </h:column>
         <h:column>
             <h:outputText value="#{b.price}" />
