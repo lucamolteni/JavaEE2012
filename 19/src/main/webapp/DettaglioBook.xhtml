@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<f:metadata>
+    <f:viewParam name="id" value="#{dettaglioBook.id}"  />
+</f:metadata>
+<h:head><title>08</title></h:head>
+<h:body>
+    <h1>Dettaglio del libro #{dettaglioBook.book.bookName}</h1>
+
+    <h:form>
+    <h:panelGrid columns="2">
+        <h:outputText value="nome" /><h:inputText value="#{dettaglioBook.book.bookName}" />
+        <h:outputText value="price" /><h:inputText value="#{dettaglioBook.book.price}" />
+        <h:outputText value="author" /><h:inputText value="#{dettaglioBook.book.author}" />
+        <h:outputText value="ISBN" /><h:outputText value="#{dettaglioBook.book.isbn}" />
+        <h:outputText value="Publisher" /><h:selectOneMenu value="#{dettaglioBook.book.publisher}" converter="#{publisherConverter}" >
+            <f:selectItems value="#{elencoPublisher.publisher}" var="p" itemLabel="#{p.name}"  />
+        </h:selectOneMenu>
+    </h:panelGrid>
+        <h:button outcome="index" value="Back" />
+        <h:commandButton action="#{dettaglioBook.save}" value="Salva" />
+    </h:form>
+</h:body>
+</html>
