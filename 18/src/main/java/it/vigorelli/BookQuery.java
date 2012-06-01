@@ -4,6 +4,8 @@ import org.hibernate.annotations.common.util.impl.LoggerFactory;
 
 import javax.ejb.Remove;
 import javax.ejb.Stateful;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
@@ -26,5 +28,10 @@ public class BookQuery {
     @Remove
     public void destroy() {
         Logger.getLogger(BookQuery.class.getSimpleName()).info("BookQuery Destroyed");
+    }
+
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public Book save(Book book) {
+        return em.merge(book);
     }
 }
