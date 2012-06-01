@@ -11,11 +11,18 @@
 <h:body>
     <h1>Dettaglio del libro #{dettaglioBook.book.bookName}</h1>
 
+    <h:form>
     <h:panelGrid columns="2">
         <h:outputText value="nome" /><h:inputText value="#{dettaglioBook.book.bookName}" />
         <h:outputText value="price" /><h:inputText value="#{dettaglioBook.book.price}" />
         <h:outputText value="author" /><h:inputText value="#{dettaglioBook.book.author}" />
-        <h:outputText value="ISBN" /><h:inputText value="#{dettaglioBook.book.isbn}" />
+        <h:outputText value="ISBN" /><h:outputText value="#{dettaglioBook.book.isbn}" />
+        <h:outputText value="Publisher" /><h:selectOneMenu value="#{dettaglioBook.book.publisher}" converter="#{publisherConverter}" >
+            <f:selectItems value="#{elencoPublisher.publisher}" var="p" itemLabel="#{p.name}"  />
+        </h:selectOneMenu>
     </h:panelGrid>
+        <h:button outcome="index" value="Back" />
+        <h:commandButton action="#{dettaglioBook.save}" value="Salva" />
+    </h:form>
 </h:body>
 </html>

@@ -10,9 +10,13 @@ import java.util.List;
 public class PublisherQuery {
     @PersistenceContext EntityManager em;
 
+    public Publisher find(Long id ) {
+        return em.find(Publisher.class, id);
+    }
+
     public List<Publisher> getAllPublisher() {
         return em.createQuery(
-                "select p from Publisher p"
+                "select p from Publisher p "
                 , Publisher.class).getResultList();
     }
 

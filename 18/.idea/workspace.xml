@@ -7,25 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0131fb13-5288-41d9-9fe7-f5f80ab65a87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\Book.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\BookQuery.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\Data.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\ElencoPublisher.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\Publisher.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\18\target\classes\it\vigorelli\PublisherQuery.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/18_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/18_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/18.iml" afterPath="$PROJECT_DIR$/18.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../20 - con LoggingInterceptor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../20 - con LoggingInterceptor/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../21 - Esercitazione Finale Template - AgenziaViaggi/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../21 - Esercitazione Finale Template - AgenziaViaggi/.idea/workspace.xml" />
     </list>
     <list id="fc5d84cb-607c-4fc6-9cd1-0952360e8558" name="08" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../08/.idea/artifacts/08_war.xml" afterPath="$PROJECT_DIR$/../08/.idea/artifacts/08_war.xml" />
@@ -52,6 +43,23 @@
     <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
+    <exception_breakpoints>
+      <breakpoint class_name="org.hibernate.LazyInitializationException" package_name="org.hibernate">
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </exception_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -65,8 +73,8 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,65 +88,35 @@
         <option name="CONDITION_ENABLED" value="false" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <breakpoint_rules />
-    <ui_properties />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ProvaIdea9" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Publisher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1338300358412" expanded="true" signature="718:742" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DettaglioBook.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ElencoPublisher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,19 +126,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DettaglioBook.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java">
+      <file leaf-file-name="Publisher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="38" selection-start="691" selection-end="691" vertical-scroll-proportion="0.84444445">
+            <state line="10" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PublisherConverter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DettaglioBook.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="5" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+            <state line="18" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="0.021158129">
               <folding />
             </state>
           </provider>
@@ -175,10 +171,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.1.Final/jboss-ejb-api_3.1_spec-1.0.1.Final-sources.jar!/javax/ejb/Singleton.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="18" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+            <state line="102" column="31" selection-start="4100" selection-end="4100" vertical-scroll-proportion="-35.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DettaglioBook.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-9.12">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Renderer.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar!/javax/faces/render/Renderer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="4" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractLazyInitializer.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.0.1.Final/hibernate-core-4.0.1.Final.jar!/org/hibernate/proxy/AbstractLazyInitializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="17" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,21 +223,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/generated/ProvaIdea9/model/Member_.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProvaIdea9/model/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProvaIdea9/data/MemberListProducer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" />
         <option value="$PROJECT_DIR$/../../../jboss-as-7.1.1.Final/standalone/configuration/standalone.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -260,6 +284,10 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -510,20 +538,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="18" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -546,6 +560,98 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vigorelli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -558,11 +664,26 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -572,8 +693,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -756,7 +877,6 @@
       </method>
     </configuration>
     <configuration default="false" name="JBoss 7.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/18/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="18:war exploded">
@@ -866,15 +986,19 @@
       <created>1330936857697</created>
       <updated>1338299937629</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Esercizio 18 con dettaglio libro">
+      <created>1338300404571</created>
+      <updated>1338300404571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43661973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.6056338" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43661973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -885,13 +1009,12 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.6056338" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23959444" sideWeight="0.5633803" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23852721" sideWeight="0.6056338" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -899,6 +1022,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -998,94 +1122,66 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.taglib.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.1.Final/jboss-ejb-api_3.1_spec-1.0.1.Final-sources.jar!/javax/ejb/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1178" column="4" selection-start="38537" selection-end="38537" vertical-scroll-proportion="0.0" />
+        <state line="34" column="18" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/html_basic.tld">
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/1.0-SP4/cdi-api-1.0-SP4-sources.jar!/javax/enterprise/context/Conversation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" />
+        <state line="102" column="18" selection-start="3275" selection-end="3275" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="44" selection-start="5080" selection-end="5080" vertical-scroll-proportion="0.0" />
+        <state line="14" column="41" selection-start="584" selection-end="584" vertical-scroll-proportion="-10.64" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
+        <state line="18" column="43" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar!/javax/faces/component/ComponentStateHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="12" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+        <state line="28" column="5" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/sun/faces/jsf-api/2.1.7/jsf-api-2.1.7.jar!/javax/faces/render/Renderer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+        <state line="16" column="4" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/4.0.1.Final/hibernate-core-4.0.1.Final.jar!/org/hibernate/proxy/AbstractLazyInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1338300358412" expanded="true" signature="718:742" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+        <state line="53" column="17" selection-start="2528" selection-end="2528" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/DettaglioBook.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="-9.12">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+        <state line="102" column="31" selection-start="4100" selection-end="4100" vertical-scroll-proportion="-35.92">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
@@ -1093,14 +1189,31 @@
         <state line="21" column="42" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jboss/spec/javax/ejb/jboss-ejb-api_3.1_spec/1.0.1.Final/jboss-ejb-api_3.1_spec-1.0.1.Final-sources.jar!/javax/ejb/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="18" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0" />
+        <state line="14" column="0" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/PublisherConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/DettaglioBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="38" selection-start="691" selection-end="691" vertical-scroll-proportion="0.84444445">
+        <state line="28" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="359" selection-end="359" vertical-scroll-proportion="0.021158129">
           <folding />
         </state>
       </provider>
