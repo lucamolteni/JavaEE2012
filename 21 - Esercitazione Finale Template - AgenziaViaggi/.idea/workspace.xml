@@ -7,15 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0131fb13-5288-41d9-9fe7-f5f80ab65a87" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../08/.idea/artifacts/08_war.xml" afterPath="$PROJECT_DIR$/../08/.idea/artifacts/08_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../08/.idea/artifacts/08_war_exploded.xml" afterPath="$PROJECT_DIR$/../08/.idea/artifacts/08_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../08/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../08/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\21 - Esercitazione Finale Template - AgenziaViaggi\.idea\artifacts\21_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\workdir\roba\JavaEE2012\21 - Esercitazione Finale Template - AgenziaViaggi\src\main\resources\META-INF\import.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../18/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../18/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/DettaglioBook.java" afterPath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/DettaglioBook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/Publisher.java" afterPath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/Publisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/PublisherQuery.java" afterPath="$PROJECT_DIR$/../18/src/main/java/it/vigorelli/PublisherQuery.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../18/src/main/webapp/DettaglioBook.xhtml" afterPath="$PROJECT_DIR$/../18/src/main/webapp/DettaglioBook.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../20 - con LoggingInterceptor/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../20 - con LoggingInterceptor/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/21_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/21_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java" afterPath="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
     </list>
     <list id="fc5d84cb-607c-4fc6-9cd1-0952360e8558" name="08" comment="" />
     <ignored path="ProvaIdea9.iws" />
@@ -81,7 +83,16 @@
       <file leaf-file-name="LocationQuery.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+            <state line="2" column="35" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountryDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="28" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +101,7 @@
       <file leaf-file-name="TravelDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+            <state line="4" column="31" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,10 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookingTravelHQL.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BookingTravelHQL.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/BookingTravelHQL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="1" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.8040089">
+            <state line="20" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,7 +128,27 @@
       <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="2" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0">
+            <state line="58" column="29" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,13 +188,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/ElencoPublisher.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/model/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/model/Publisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/BookQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/daoHQL/CountryDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/daoHQL/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/daoHQL/LocationDao.java" />
@@ -173,6 +199,11 @@
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/business/BookingTravelHQL.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/BookingTravelHQL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java" />
       </list>
     </option>
   </component>
@@ -510,6 +541,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="21 - Esercitazione Finale Template - AgenziaViaggi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -533,74 +590,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vigorelli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21 - Esercitazione Finale Template - AgenziaViaggi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vigorelli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="21 - Esercitazione Finale Template - AgenziaViaggi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vigorelli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,7 +623,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
@@ -828,10 +817,9 @@
       </method>
     </configuration>
     <configuration default="false" name="JBoss 7.1.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 7.1.1.Final">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/18/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="18:war exploded">
+        <artifact name="21:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -896,7 +884,9 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="21:war exploded" />
+        </option>
       </method>
     </configuration>
     <list size="1">
@@ -948,19 +938,20 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.69787234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3716143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24968944" sideWeight="0.6069959" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3863354" sideWeight="0.6056338" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.6738895" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32657418" sideWeight="0.6283857" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -968,7 +959,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3261105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1088,25 +1078,6 @@
         <state line="8" column="13" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/UserQuery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="22" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
@@ -1119,13 +1090,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="2" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="17" selection-start="370" selection-end="370" vertical-scroll-proportion="-4.56">
@@ -1135,7 +1099,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/BookingTravelHQL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="1" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.8040089">
+        <state line="20" column="5" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/TravelDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/LocationQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="35" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/persistence/CountryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/it/vigorelli/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="29" selection-start="1928" selection-end="1928" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

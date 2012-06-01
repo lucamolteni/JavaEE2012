@@ -1,7 +1,6 @@
 package it.vigorelli.persistence;
 
 import it.vigorelli.model.*;
-import it.vigorelli.util.EntityManagerBean;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;

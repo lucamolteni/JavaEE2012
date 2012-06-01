@@ -4,7 +4,6 @@ import it.vigorelli.model.BankAccount;
 import it.vigorelli.model.Country;
 import it.vigorelli.model.Location;
 import it.vigorelli.model.User;
-import it.vigorelli.util.EntityManagerBean;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;
@@ -53,18 +52,10 @@ public class Data {
         country1.addLocation(location1);
         country1.addLocation(location2);
 
-        final EntityManager em = EntityManagerBean.getEntityManager();
-
-        final EntityTransaction tx = em.getTransaction();
-        tx.begin();
-
         em.persist(user1);
         em.persist(user2);
         em.persist(bankAccount);
         em.persist(bankAccount2);
         em.persist(country1);
-
-        tx.commit();
-        em.close();
     }
 }

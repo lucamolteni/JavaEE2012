@@ -3,7 +3,6 @@ package it.vigorelli.persistence;
 import it.vigorelli.model.Payment;
 import it.vigorelli.model.Travel;
 import it.vigorelli.model.User;
-import it.vigorelli.util.EntityManagerBean;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;

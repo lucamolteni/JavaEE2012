@@ -2,8 +2,6 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="18persistenceUnit">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>it.vigorelli.model.Book</class>
-        <class>it.vigorelli.model.Publisher</class>
         <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
