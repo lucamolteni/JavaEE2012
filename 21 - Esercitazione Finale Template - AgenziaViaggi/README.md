@@ -30,9 +30,9 @@ Non è richiesto implementare l'autenticazione, si può inserire un utente scelto 
 
 Punti in più per chi:
 
-1) Utilizza lo scope conversation per il bean che contiene l'oggetto di dettaglio, e quindi fa partire le conversation sul link di index.
-2) Implementa l'autenticazione in una pagina a parte.
-3) Utilizza i meccanismi di template per creare una struttura del sito condivisa tra le pagine.
+* Utilizza lo scope conversation per il bean che contiene l'oggetto di dettaglio, e quindi fa partire le conversation sul link di index.
+* Implementa l'autenticazione in una pagina a parte.
+* Utilizza i meccanismi di template per creare una struttura del sito condivisa tra le pagine.
 
 Buon lavoro :)
 
