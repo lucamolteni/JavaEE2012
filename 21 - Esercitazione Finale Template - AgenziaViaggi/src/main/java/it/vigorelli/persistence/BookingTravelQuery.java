@@ -10,12 +10,13 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
 
 @Stateful
-public class BookingTravelHQL
+public class BookingTravelQuery
 {
     @PersistenceContext(type = PersistenceContextType.EXTENDED) EntityManager entityManager;
     @Inject LocationQuery locationDao;
     @Inject UserQuery userDao;
-    @Inject TravelDao travelDao;
+    @Inject
+    TravelQuery travelQuery;
 
     public Travel bookingTravel(User user, Location location)
     {
@@ -27,14 +28,14 @@ public class BookingTravelHQL
     }
 
     public Travel paymentTravel(Travel travel, long amount) {
-        final Travel t = travelDao.findTravel(travel.getId());
+        final Travel t = travelQuery.findTravel(travel.getId());
         final Payment payment = new Payment(travel,amount);
         travel.addPayment(payment);
         return entityManager.merge(travel);
     }
 
     public boolean deleteTravel(Travel travel) {
-        final Travel t = travelDao.findTravel(travel.getId());
+        final Travel t = travelQuery.findTravel(travel.getId());
         entityManager.remove(t);
         return true;
     }

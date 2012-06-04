@@ -10,7 +10,7 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Stateless
-public class CountryDao {
+public class CountryQuery {
     @PersistenceContext
     EntityManager em;
 

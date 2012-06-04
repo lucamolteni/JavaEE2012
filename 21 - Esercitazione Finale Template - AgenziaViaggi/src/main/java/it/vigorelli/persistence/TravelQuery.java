@@ -5,13 +5,15 @@ import it.vigorelli.model.Travel;
 import it.vigorelli.model.User;
 
 import javax.ejb.Stateless;
+import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Stateless
-public class TravelDao {
+@Named
+public class TravelQuery {
     @PersistenceContext
     EntityManager em;
 
@@ -20,7 +22,10 @@ public class TravelDao {
     }
 
     public List<Travel> findTravelUser(User user) {
-        TypedQuery<Travel> q1 = em.createQuery("select u from Travel t left join t.user u where u.id =:id  ", Travel.class);
+        TypedQuery<Travel> q1 = em.createQuery(
+                "select t from Travel t left join t.user u " +
+                "left join fetch t.location " +
+                "where u.id =:id  ", Travel.class);
         q1.setParameter("id", user.getId());
         return q1.getResultList();
     }
