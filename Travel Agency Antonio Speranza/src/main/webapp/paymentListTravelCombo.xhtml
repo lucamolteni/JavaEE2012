@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+        
+<ui:composition template="template.xhtml" >
+<ui:define name="content">
+    	<h3 class="title" align="center"><a href="#">Pagamenti di un viaggio</a></h3>
+<center>
+		<h:form>
+				    
+		<h:selectOneMenu value="Fisso" onchange="submit()" valueChangeListener="#{listPaymentTravel.countryLocaleCodeChanged}">     
+		    	<f:selectItems value="#{userTravel.allTravelUser}" var="travel" itemValue="#{travel.id}"  itemLabel="#{travel.location.name}" />  
+		</h:selectOneMenu> 
+		<BR></BR>
+		<BR></BR>
+		<h:dataTable class="gridtable" value="#{listPaymentTravel.allPaymentUser}" var="b">
+		        <h:column>
+		        	<f:facet name="header">&bnsp;&bnsp;&bnsp;Chiave Pagamento &bnsp;&bnsp;&bnsp;</f:facet>
+		            <h:outputText value="#{b.id}" />
+		        </h:column>
+		        <h:column>
+		                <f:facet name="header">&bnsp;&bnsp;&bnsp;Importo&bnsp;&bnsp;&bnsp;</f:facet>
+			            <h:outputText value="#{b.amount}" />
+			    </h:column>
+		</h:dataTable>
+		<BR></BR>
+		<BR></BR>
+		<h:panelGrid columns="2">
+				Pagamento:
+				<h:inputText id="amount" value="#{listPaymentTravel.amount}" 
+					size="20" required="true"
+					label="amount" >
+					<f:validateLongRange minimum="10" maximum="10000"></f:validateLongRange> 
+				</h:inputText>
+				<h:message for="amount" style="color:red" />
+		</h:panelGrid>
+		<h:commandButton value="Submit" action="#{listPaymentTravel.addPayment()}" />
+		</h:form>
+		
+</center>
+<BR></BR>
+<BR></BR>
+	</ui:define>
+</ui:composition>
+</html>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Travel Agency Exploded">
+    <output-path>$PROJECT_DIR$/target/travelagency.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Travel Agency Antonio Speranza" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Travel Agency Antonio Speranza/web/Web" />
+    </root>
+  </artifact>
+</component>

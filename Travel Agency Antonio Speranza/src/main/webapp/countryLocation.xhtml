@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<ui:composition template="template.xhtml" >
+<ui:define name="content">
+		<h3 align="center"><a href="#">#{msgs.scelta}</a></h3>
+<center>
+<h:form>
+		    <h:dataTable class="gridtable" value="#{allLocation}" var="b">
+		        <h:column>
+		        	<f:facet name="header">&bnsp;&bnsp;&bnsp;#{msgs.nazione} &bnsp;&bnsp;&bnsp;</f:facet>
+		            <h:outputText value="#{b.country.name}" />
+		        </h:column>
+		        <h:column>
+		                <f:facet name="header">&bnsp;&bnsp;&bnsp;#{msgs.vacanza}&bnsp;&bnsp;&bnsp;</f:facet>
+		                <h:commandLink value="#{b.name}" action="#{bookingTravel.chooseLocation(b)}" />
+			    </h:column>
+		        
+		        <h:column>
+		            <f:facet name="header">&bnsp;&bnsp;#{msgs.costo}&bnsp;&bnsp;</f:facet>
+		            <h:outputText value="#{b.expense}" />€
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Preview</f:facet>
+		            <img src="resources/images/img05.jpg" width="60" height="60" alt="" class="alignleft border" />
+		        </h:column>
+		    </h:dataTable>
+		</h:form>    
+
+		    </center>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+	</ui:define>
+</ui:composition>
+</html>

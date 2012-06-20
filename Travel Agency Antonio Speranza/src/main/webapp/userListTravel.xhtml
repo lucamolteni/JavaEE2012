@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+        
+<ui:composition template="template.xhtml" >
+<ui:define name="content">
+    	<h3 class="title" align="center"><a href="#">Viaggi dell'Utente</a></h3>
+<center>
+		<h:form>
+		<h:dataTable class="gridtable" value="#{allTravelUser}" var="b">
+		        <h:column>
+		 			<f:facet name="header">Viaggio Fatto</f:facet>       
+		            <h:outputText value="#{b.location.name}" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Costo</f:facet>
+		            <h:outputText value="#{b.location.expense}" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Pagamenti</f:facet>
+		            <h:commandButton action="#{listPaymentTravel.chooseTravel(b)}" value="Seleziona" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Cancella Viaggio</f:facet>
+		            <h:commandButton action="#{bookingTravel.removeTravel(b)}" value="Cancella" />
+		        </h:column>
+		</h:dataTable>
+		</h:form>
+</center>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+	</ui:define>
+</ui:composition>
+</html>

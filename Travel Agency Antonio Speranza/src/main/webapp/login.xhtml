@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      >
+<link href="resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />     
+    <h:body>
+    	
+    	<h1>Autenticazione Portale Viaggi</h1>
+		<h:form>
+			<br />
+			<h:panelGrid columns="3">
+				
+				#{msgs.username}
+				<h:inputText id="username" value="#{user.username}" 
+					size="20" required="true"
+					label="UserName" 
+					requiredMessage="#{msgs.userRequired}"
+					validatorMessage="#{msgs.userError}">
+					<f:validateLength minimum="4" maximum="10"  />
+				</h:inputText>
+				<h:message for="username" style="color:red" />
+
+				#{msgs.surname}
+				<h:inputText id="cognome" value="#{user.surname}" 
+					size="20" required="true"
+					label="surname" 
+					requiredMessage="#{msgs.surnameRequired}"
+					validatorMessage="#{msgs.surnameError}">
+					<f:validateLength minimum="5" maximum="10" />
+				</h:inputText>
+				<h:message for="cognome" style="color:red" />
+
+				#{msgs.email}
+				<h:inputText id="email" value="#{user.email}" 
+					size="20" required="true"
+					label="email" 
+					requiredMessage="#{msgs.emailRequired}">
+					<f:validator validatorId="it.vigorelli.validator.EmailValidator" />
+				</h:inputText>
+				<h:message for="email" style="color:red" />
+
+			</h:panelGrid>
+		
+			<h:commandButton value="Submit" action="#{user.getAuth}" />
+		
+		</h:form>
+    </h:body>
+</html>

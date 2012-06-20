@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+        
+<ui:composition template="template.xhtml" >
+<ui:define name="content">
+<BR></BR>
+    	<h3 align="center"><a href="#">Utente Profilo</a></h3>
+<BR></BR>
+<center>
+		
+		<h:dataTable class="gridtable" value="#{user.userEntity}" var="b">
+		        <h:column>
+		 			<f:facet name="header">Nome</f:facet>       
+		            <h:outputText value="#{b.name}" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Cognome</f:facet>
+		            <h:outputText value="#{b.surname}" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">E-mail</f:facet>
+		            <h:outputText value="#{b.email}" />
+		        </h:column>
+		        <h:column>
+		            <f:facet name="header">Indirizzo</f:facet>
+		            <h:outputText value="#{b.address}" />
+		        </h:column>
+		</h:dataTable>
+		<BR></BR>
+		
+		<h:dataTable class="gridtable" value="#{userTravel.getBankUser()}" var="b">
+		        <h:column>
+		 			<f:facet name="header">Iban</f:facet>       
+		            <h:outputText value="#{b.iban}" />
+		        </h:column>
+		        <h:column>
+		 			<f:facet name="header">Indirizzo Banca</f:facet>       
+		            <h:outputText value="#{b.addressBank}" />
+		        </h:column>
+
+		</h:dataTable>
+  </center>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+<BR></BR>
+	</ui:define>
+</ui:composition>
+</html>

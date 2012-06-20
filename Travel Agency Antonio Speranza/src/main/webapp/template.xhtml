@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Agenzia Viaggi</title>
+<link href="resources/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<h:form>
+		<div id="logo">
+		<p><img src="resources/images/logo.png" width="80" height="80" alt=""  /></p>		
+		</div>
+		<div id="logo">
+		 <h5 align="right" style="color: red;">Benvenuto: #{user.username}, #{user.surname} </h5> 
+			<h1>Agenzia MelaViaggio</h1>
+		</div>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<h:commandLink action="#{localechanger.englishAction}">
+				<h:graphicImage url="resources/images/inglese.bmp" style="border: 0px" />
+		</h:commandLink>   
+		&nbsp;&nbsp;&nbsp;&nbsp;
+   	    <h:commandLink  action="#{localechanger.italianAction}">
+				<h:graphicImage url="resources/images/italia.bmp" style="border: 0px" />
+		</h:commandLink>
+		
+		</h:form>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li><h:link outcome="Home" value="Home" ></h:link></li>
+			<li><h:link outcome="userListTravel" value="I Miei Viaggi" ></h:link></li>
+			<li><h:link outcome="countryLocation" value="Prenota Viaggio" ></h:link></li>
+			<li><h:link outcome="userProfile" value="Profilo" ></h:link></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div>
+        <ui:insert name="content" />
+    </div>
+	
+</div>
+<div id="footer">
+	<p>Copyright (c) Antonio Speranza</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

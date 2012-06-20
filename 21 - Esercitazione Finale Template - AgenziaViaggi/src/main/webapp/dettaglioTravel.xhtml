@@ -6,18 +6,10 @@
         xmlns:h="http://java.sun.com/jsf/html">
 <h:head><title>21</title></h:head>
 <h:body>
+
     <h:form>
-    <h:dataTable value="#{locationQuery.findAllLocation()}" var="l">
-        <h:column>
-            <h:outputText value="#{l.name}" />
-        </h:column>
-        <h:column>
-            <h:outputText value="#{l.country.name}" />
-        </h:column>
-        <h:column>
-            <h:commandLink value="Book" action="#{dettaglioTravel.selectTravelLocation(l)}" />
-        </h:column>
-    </h:dataTable>
+    <h1>Book a Travel in #{dettaglioTravel.location.name}</h1>
+    <h:commandButton value="confirm" action="#{dettaglioTravel.book}" />
     </h:form>
 </h:body>
 </html>

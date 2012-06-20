@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:ui="http://java.sun.com/jsf/facelets"
+        xmlns:f="http://java.sun.com/jsf/core"
+        xmlns:h="http://java.sun.com/jsf/html">
+<ui:composition template="template.xhtml" >
+
+<ui:define name="content">
+<center>
+<h:form>
+	    <h3 align="center"><a href="#">Dettaglio della Vacanza #{bookingTravel.location.name}</a></h3>
+		<h:panelGrid columns="3" class="gridtable">
+		  <f:facet name="header">
+		    <h:outputText value="Riepilogo della soluzione di viaggio"/>    
+		  </f:facet>
+		  <h:outputText value="Nazione" />
+		  <h:outputText value="#{bookingTravel.location.country.name}" />
+		  <h:outputText value="Vacanza" />
+		  <h:outputText value="#{bookingTravel.location.name}" />
+		  <h:outputText value="Costo" />
+		  <h:outputText value="#{bookingTravel.location.expense}" />
+		<f:facet name="footer">
+		    <h:panelGroup>
+		     <h:commandButton action="#{bookingTravel.booking()}" value="Confermi Acquisto Vacanza" />
+	    	 <h:commandButton action="#{bookingTravel.terminateConversation()}" value="Annulla Prenotazione" />
+		    </h:panelGroup>
+		  </f:facet>
+		</h:panelGrid> 
+</h:form>
+   </center>
+<BR></BR>
+<BR></BR>
+	</ui:define>
+</ui:composition>
+</html>
